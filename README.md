@@ -1,6 +1,6 @@
-<!-- Header Banner: static SVG for visual effect -->
+<!-- Header Banner: Typing SVG for animated effect -->
 <p align="center">
-  <img src="https://media.giphy.com/media/AU9r6SLmqMgNVIvOYT/giphy.gif" height="80" alt="Animated Traffic Light Banner"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=4000&pause=1000&color=F97316&center=true&vCenter=true&width=800&lines=🚦+Welcome+to+My+GitHub+Profile!;👨‍💻+Developer+%7C+Learner+%7C+Creator;💡+Explore+Projects+and+Ideas!" alt="Typing Animation Banner" />
 </p>
 
 
@@ -15,20 +15,11 @@
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python" />
   <img src="https://img.shields.io/badge/MySQL-8.0%2B-orange?logo=mysql" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" />
-  <img src="https://img.shields.io/github/license/Nikhil-Kumar-Shah/Traffic_Signal_Management_System" />
 </p>
 
 ---
 
-## 🎬 Demo
 
-<p align="center">
-  <!-- For real use, upload your GIF to /assets or use a screenshot to replace the link below -->
-  <img src="https://i.imgur.com/7rYayhz.png" width="680" alt="Dashboard Preview" style="border-radius: 14px;" />
-</p>
-<p align="center"><sub>Replace the preview image above with your own .gif or screenshot for full effect!</sub></p>
-
----
 
 ## 🚦 Features
 
@@ -44,7 +35,9 @@
 ## ⚡️ Quick Setup & Usage
 
 ### 1. Clone and Install Python Dependencies
-
+```
+pip install pymysql flask
+```
 
 ### 2. MySQL Database Setup
 
@@ -101,14 +94,6 @@ Traffic_Signal_Management_System/
 
 ---
 
-## 📈 Roadmap
-
-- 🌐 Add Flask web dashboard (dark mode, animated)
-- 🗺️ Integrate live map for signals
-- 📊 Add analytics view for traffic trends
-- 👥 Implement user/admin roles
-
----
 
 ## 🤝 Contributing
 
@@ -141,6 +126,5 @@ Pull requests are welcome!
 ---
 
 <p align="center">
-  <img src="https://svgshare.com/i/xx7.svg" width="100" alt="Traffic Light Footer" /><br>
-  <b>Drive safe. Code smarter. 🚦</b>
+<b>Drive safe. Code smarter. 🚦</b>
 </p>
