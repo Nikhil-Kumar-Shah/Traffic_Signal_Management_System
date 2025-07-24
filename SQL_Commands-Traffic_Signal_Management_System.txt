@@ -1,0 +1,24 @@
+-- Create the database if it doesn't already exist
+CREATE DATABASE IF NOT EXISTS traffic_db;
+
+-- Select the database to use for the next commands
+USE traffic_db;
+
+-- Create the TrafficData table if it doesn't already exist
+CREATE TABLE IF NOT EXISTS TrafficData (
+    SignalID INT PRIMARY KEY,              -- Unique identifier for each traffic signal
+    VehicleCount INT NOT NULL,             -- Number of vehicles at the signal (cannot be NULL)
+    SignalDuration INT NOT NULL,           -- Duration for which the signal stays green/red, in seconds (cannot be NULL)
+    Location VARCHAR(100) NOT NULL,        -- Location name or description for the signal (cannot be NULL)
+    LastUpdated DATETIME NOT NULL          -- Timestamp of the last update to the signal data
+);
+
+-- (Optional) Example: Insert a sample traffic signal
+-- INSERT INTO TrafficData (SignalID, VehicleCount, SignalDuration, Location, LastUpdated)
+-- VALUES (1, 15, 60, 'Main Street & 5th Avenue', NOW());
+
+-- (Optional) To drop (delete) the TrafficData table if you need to reset schema
+-- DROP TABLE IF EXISTS TrafficData;
+
+-- (Optional) To drop (delete) the whole database (use with caution)
+-- DROP DATABASE IF EXISTS traffic_db;
